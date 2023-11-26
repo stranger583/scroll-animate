@@ -1,0 +1,31 @@
+@function size($s) {
+  @return calc($s / 1920 * 100) + vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 300vh;
+}
+
+.container {
+  height: 80vh;
+}
+
+.exploded-image {
+  position: sticky;
+  top: size(0);
+  width: 1px;
+  height: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  width: size(1200);
+  height: size(1200);
+}

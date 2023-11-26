@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 300vh;
+}
+
+.container {
+  height: 80vh;
+}
+
+.exploded-image {
+  position: sticky;
+  top: 0vw;
+  width: 1px;
+  height: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  width: 62.5vw;
+  height: 62.5vw;
+}/*# sourceMappingURL=style.css.map */
